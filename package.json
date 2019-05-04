@@ -1,9 +1,9 @@
 {
-  "name": "solid-server",
-  "description": "Solid server on top of the file-system",
+  "name": "@gatos-jd/solid-server",
+  "description": "Testing.  Don't actually use this.",
   "version": "5.0.1",
   "author": {
-    "name": "Tim Berners-Lee",
+    "name": "NOT Tim Berners-Lee",
     "email": "timbl@w3.org"
   },
   "contributors": [
@@ -96,7 +96,7 @@
     "rdflib": "^0.17.1",
     "recursive-readdir": "^2.1.0",
     "rimraf": "^2.5.0",
-    "solid-auth-client": "^2.2.12",
+    "@gatos-jd/solid-auth-client": "^2.3.0",
     "solid-namespace": "^0.1.0",
     "solid-ws": "^0.2.3",
     "text-encoder-lite": "^1.0.1",
@@ -110,7 +110,7 @@
     "webid": "^0.3.11"
   },
   "devDependencies": {
-    "@solid/oidc-op": "^0.4.0",
+    "@gatos-jd/oidc-rp": "^0.9.0",
     "@solid/solid-auth-oidc": "^0.3.0",
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
